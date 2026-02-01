@@ -67,11 +67,11 @@ to a VCF file.
 
 ## Input Data
 
-- Single-end FASTQ file
-  
+- Single-end FASTQ file  
 /data/Sample.fastq.gz
 - Reference genome  
 /reference/chr22.fa
+
 Input data is not included in the GitHub repository.
 
 ---
