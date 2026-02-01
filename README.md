@@ -1,7 +1,7 @@
-# Nextflow QC, Alignment and Variant Calling Pipeline
+# Variant Calling Pipeline
 
 ## Overview
-This project implements a basic Nextflow DSL2 pipeline for the analysis of
+This project implements a basic Nextflow pipeline for the analysis of
 single-end DNA sequencing data. The pipeline performs quality control,
 read trimming, alignment to a reference genome, and variant calling.
 
@@ -120,6 +120,6 @@ nextflow run main.nf -resume
 ```
 ### How to Clone the Repository
 ```bash
-git clone 
+git clone https://github.com/PallaviiPatle/Nextflow_Pipeline.git
 cd nf_pipeline
 ```
