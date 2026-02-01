@@ -104,12 +104,13 @@ nf_pipeline/
 │
 └── workflows/
   └── workflow.nf
----
+
 ```
 ### Create and Activate Conda Environment
 
  ```bash
-conda env create -f environment.yml conda activate bnf
+conda env create -f environment.yml
+conda activate bnf
 ```
 
 ### How to Run the Pipeline
@@ -119,6 +120,6 @@ nextflow run main.nf -resume
 ```
 ### How to Clone the Repository
 ```bash
-git clone <your-github-repository-url>
+git clone 
 cd nf_pipeline
 ```
